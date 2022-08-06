@@ -15,7 +15,7 @@ export default function Home() {
             <h2 class="name">{user.username}</h2>
           </div>
           <div class="bottom">
-            <p class="info">{user.email}</p>
+            <p class="info">Email: {user.email}</p>
           </div>
         </div>
       </div>)}
