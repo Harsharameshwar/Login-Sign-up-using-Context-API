@@ -29,7 +29,6 @@ export default function Settings() {
 
  function onDelete(){
     try{
-    alert("Please delete all the posts of this account")
     const q=window.confirm("Are you sure you want to delete this account?");
     if(q){
     const res=axios.delete("/users/"+ user1.userId);
